@@ -1,0 +1,168 @@
+html{
+	font-family:Monospace;
+	font-size: 20px;
+	max-width: 400px;
+	margin: auto;
+	background: gray;
+}
+
+body{
+	background: #fff;
+	padding: 20px;
+	margin-top:20px;
+	border-radius: 20px;
+}
+
+.header_inner{
+	display: flex;
+	justify-content: space-between;
+}
+
+.header_symbol-img{
+	width: 20px;
+}
+
+.header_image-img{
+	height: 20px;
+}
+
+.header_image-mark{
+	background: orange;
+	border-radius: 50px;
+	font-size: 10px;
+	line-height: 10px;
+	text-align: center;
+	color: white;
+	padding: 3px;
+	width: 10px;
+	margin: -30px 0 0 15px;
+}
+
+.item_icon-img{
+	width: 70px;
+}
+.item_text{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.main{
+	margin-top: 50px;
+}
+
+.item_info{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+.item_count{
+	display: flex;
+	justify-content: space-between;
+	width: 80px;
+}
+.count_mark{
+	border-radius: 5px;
+	background: orange;
+	padding: 3px;
+	width: 20px;
+	text-align: center;
+}
+.item_text{
+	font-size: 14px;
+	line-height: 20px;
+}
+.item_title{
+	font-weight: bold;
+
+}
+.item_subtitle{
+	opacity: 0.6;
+}
+.item_price{
+	font-weight: bold;
+}
+.item_sum{
+	font-size: 14px;
+	text-align: right;
+	opacity: 0.6;
+}
+.item{
+	margin-top: 20px;
+	border-radius: 10px;
+	background: white;
+	padding: 10px;
+	box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.04);
+}
+.main_item{
+	display: flex;
+	justify-content: space-between;
+}
+.input_logo{
+	opacity: 0.6;
+}
+.input_logo-img{
+	width: 30px;
+}
+.input_text{
+	opacity: 0.6;
+	font-size: 14px;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.main_input{
+	display: flex;
+	justify-content: space-between;
+}
+.input{
+	display: flex;
+}
+.input_button{
+	padding: 10px 20px;
+	background-color: orange;
+	border-radius: 23px;
+	font-size: 14px;
+	line-height: 16px;
+	text-align: center;
+	color: white;
+}
+.footer{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+}
+.footer_row{
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.result{
+	font-weight: bold;
+	line-height: 18px;
+	font-size: 18px;
+}
+.footer_button{
+	margin-top: 20px;
+	background: orange;
+	color: white;
+	border-radius: 10px;
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
+	line-height: 16px;
+}
+.footer_line{
+	border: none; 
+    background-color: black; 
+    color: black; 
+    height: 1px; 
+    opacity: 0.3;
+}
+
+.main_content {
+	max-height: 100%;
+    overflow: auto;
+}
